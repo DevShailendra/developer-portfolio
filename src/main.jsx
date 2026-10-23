@@ -13,9 +13,9 @@ const PROFILE = {
   role: '.NET Backend Developer',
   location: 'India',
   github: 'https://github.com/DevShailendra',
-  linkedin: 'https://www.linkedin.com/in/devshailendra?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+  linkedin: 'https://www.linkedin.com/in/devshailendra',
   email: 'shailendra.softdev@gmail.com',
-  resume: 'public/Shailendra_Dwivedi_SDE.pdf', // Add ./resume.pdf after placing your PDF in the public folder.
+  resume: '${import.meta.env.BASE_URL}Shailendra_Dwivedi_SDE.pdf', // Add ./resume.pdf after placing your PDF in the public folder.
 }
 
 const skills = [
